@@ -2,6 +2,8 @@
 
 This project takes the dbt demo project and shows how easy configuring artifact upload with the [dbt-artifact-uploader](https://github.com/unifiedly-io/dbt-artifact-uploader/) can be.
 
+Note the only files that vary from any vanilla dbt setup are [sources](/models/sources.yml) and [packages](packages.yml).
+
 In order to run this project ensure you have created two databases. One for the demo project and the other for your dbt artifacts to be stored into.
 
 ```
