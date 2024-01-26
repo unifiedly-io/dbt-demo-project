@@ -13,5 +13,5 @@ create database unifiedly;
 ```
 Then run the project using any of the demo commands from the dbt-artifact-uploader [readme](https://github.com/unifiedly-io/dbt-artifact-uploader/blob/main/README.md) 
 ```
-dbt build && dbt --no-write-json run-operation upload_dbt_artifacts --args '{filenames: [manifest, run_results]}'
+dbt build && dbt --no-write-json run-operation upload_dbt_artifacts'
 ```
