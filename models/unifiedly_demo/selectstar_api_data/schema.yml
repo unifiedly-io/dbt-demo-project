@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: select_star_teams
+    description: "A list of all teams in Select Star"
+    columns:
+      - name: loaded_datetime
+        description: "The datetime of when the API responded with the data"
+      - name: api_data
+        description: "Api Response"
+
+  - name: selectstar_teams_details
+    description: "Detailed data about every team"
+    columns:
+      - name: guid
+      - name: api_data
