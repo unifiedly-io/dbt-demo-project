@@ -6,5 +6,5 @@ with vals as (
     )
 select
     guid
-    , unifiedly_demo.public.selectstar_get_func(concat_ws('/', 'custom-attributes', guid), {}) as api_data
+    , data_build_tool_dbt__select_star_integration_by_unifiedly.public.selectstar_get(concat_ws('/', 'custom-attributes', guid), {}) as api_data
 from vals
