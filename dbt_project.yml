@@ -35,3 +35,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+    selectstar_get_api_data:
+      +materialized: view
+    selectstar_post_api_data:
+      +schema: selectstar_post
+      +materialized: view

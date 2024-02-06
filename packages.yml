@@ -1,3 +1,2 @@
 packages:
-  - git: "https://github.com/unifiedly-io/dbt-artifact-uploader"
-    revision: v1.1.0
+  - git: "https://github.com/unifiedly-io/unifiedly-dbt"
