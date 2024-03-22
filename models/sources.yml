@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: dbt_artifacts
-    database: unifiedly  
+    database: artifacts
     schema: dbt_artifacts  
     tables:
       - name: artifacts
